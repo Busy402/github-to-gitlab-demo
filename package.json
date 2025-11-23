@@ -1,0 +1,46 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Иван Петров",
+      "email": "ivan.petrov@example.com",
+      "role": "developer",
+      "projects": ["web-app", "mobile-app"],
+      "active": true
+    },
+    {
+      "id": 2,
+      "name": "Мария Сидорова",
+      "email": "maria.sidorova@example.com",
+      "role": "designer",
+      "projects": ["web-app"],
+      "active": true
+    },
+    {
+      "id": 3,
+      "name": "Алексей Коваль",
+      "email": "alex.koval@example.com",
+      "role": "qa",
+      "projects": ["mobile-app"],
+      "active": false
+    }
+  ],
+  "projects": [
+    {
+      "id": "web-app",
+      "name": "Веб приложение",
+      "description": "Основное веб приложение компании",
+      "technologies": ["JavaScript", "React", "Node.js"],
+      "repository": "https://github.com/company/web-app",
+      "status": "active"
+    },
+    {
+      "id": "mobile-app",
+      "name": "Мобильное приложение",
+      "description": "Кроссплатформенное мобильное приложение",
+      "technologies": ["React Native", "TypeScript"],
+      "repository": "https://github.com/company/mobile-app",
+      "status": "development"
+    }
+  ]
+}
